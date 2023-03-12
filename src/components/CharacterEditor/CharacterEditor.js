@@ -78,6 +78,8 @@ function App() {
         </div>
       </MaxWidthWrapper>
 
+      <div className={styles.spacer} />
+      
       <div className={styles.characterWrapper}>
         <Character
           body={body}
